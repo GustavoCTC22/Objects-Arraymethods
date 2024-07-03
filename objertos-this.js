@@ -32,6 +32,8 @@ const prueba = () => {
 
 prueba();
 
+//=================================
+//CASO 1
 const obj1 = {
   name: "funcion basica",
   thisone: function () {
@@ -39,14 +41,14 @@ const obj1 = {
   },
 };
 
+obj1.thisone();
+//CASO 2
 const arrow = () => {
   console.log(this);
 };
-
 const obj2 = {
   name: "arrow function",
   thistwo: arrow,
 };
 
-obj1.thisone();
 obj2.thistwo();
