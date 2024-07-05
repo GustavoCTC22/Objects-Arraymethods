@@ -11,5 +11,3 @@ const nombre = "Paola";
 const result = nombre.concat(" Murguia");
 console.log(nombre);
 console.log(result);
-
-//SCOPE
